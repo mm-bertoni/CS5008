@@ -13,7 +13,7 @@ int main(){
     int firstTen = 1;
     while(firstTen < 11){
     
-        printf("%d to the power of %d is %ld", 2, firstTen,power(2, firstTen));
+        printf("%d to the power of %d is: %ld", 2, firstTen,power(2, firstTen));
         firstTen++;
     }
     return 0;
