@@ -1,5 +1,5 @@
 #include <stdio.h>
-long power (int base, unsigned int n){
+long power(int base, unsigned int n){
     long finalNumber = base;
     int counter = n - 1;
     while(counter > 0){
